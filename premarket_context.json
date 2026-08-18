@@ -1,0 +1,53 @@
+{
+  "dealer": {
+    "age_seconds": null,
+    "fresh": false,
+    "snapshot_timestamp": null,
+    "status": "degraded"
+  },
+  "es": {
+    "age_seconds": null,
+    "fresh": false,
+    "price": null,
+    "timestamp": null
+  },
+  "generated_at": "2026-08-18T13:17:20.143229+00:00",
+  "mapping": {
+    "mode": "unavailable",
+    "source_freshness": {
+      "dealer": {
+        "age_seconds": null,
+        "fresh": false
+      },
+      "es": {
+        "age_seconds": null,
+        "fresh": false
+      },
+      "spx": {
+        "age_seconds": 405737.143229,
+        "fresh": false
+      },
+      "synchronized": false,
+      "timestamp_difference_seconds": null
+    },
+    "source_timestamps": {
+      "dealer": null,
+      "es": null,
+      "spx": "2026-08-13T20:35:03+00:00"
+    },
+    "unavailable_reason": "SPX and ES prices are stale or unavailable",
+    "valid": false
+  },
+  "raw_spx": {
+    "call_wall": null,
+    "gamma_flip": null,
+    "gex_nodes": {
+      "negative": [],
+      "positive": [],
+      "unclassified": []
+    },
+    "king": null,
+    "put_wall": null
+  },
+  "schema_version": 1
+}
