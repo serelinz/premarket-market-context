@@ -1,9 +1,9 @@
 {
   "dealer": {
-    "age_seconds": 309.120835,
+    "age_seconds": 304.190384,
     "fresh": true,
-    "session_date_et": "2026-08-20",
-    "snapshot_timestamp": "2026-08-20T13:30:00Z",
+    "session_date_et": "2026-08-24",
+    "snapshot_timestamp": "2026-08-24T13:30:00Z",
     "status": "fresh"
   },
   "es": {
@@ -12,12 +12,12 @@
     "price": null,
     "timestamp": null
   },
-  "generated_at": "2026-08-20T13:35:09.120835+00:00",
+  "generated_at": "2026-08-24T13:35:04.190384+00:00",
   "mapping": {
     "mode": "unavailable",
     "source_freshness": {
       "dealer": {
-        "age_seconds": 309.120835,
+        "age_seconds": 304.190384,
         "fresh": true
       },
       "es": {
@@ -25,78 +25,78 @@
         "fresh": false
       },
       "spx": {
-        "age_seconds": 309.120835,
+        "age_seconds": 304.190384,
         "fresh": true
       },
       "synchronized": false,
       "timestamp_difference_seconds": null
     },
     "source_timestamps": {
-      "dealer": "2026-08-20T13:30:00Z",
+      "dealer": "2026-08-24T13:30:00Z",
       "es": null,
-      "spx": "2026-08-20T13:30:00Z"
+      "spx": "2026-08-24T13:30:00Z"
     },
     "unavailable_reason": "ES/NQ market data is intentionally obtained separately",
     "valid": false
   },
   "raw_spx": {
-    "call_wall": 7710.0,
-    "gamma_flip": 7686.691580509909,
+    "call_wall": 7660.0,
+    "gamma_flip": 7653.225743795987,
     "gex_nodes": {
       "negative": [
         {
-          "absolute_gex_usd": 1477597.082,
-          "location": "below",
-          "net_gex_usd": -1477597.082,
-          "node_type": null,
+          "absolute_gex_usd": 4780015.4358,
+          "location": "above",
+          "net_gex_usd": -4780015.4358,
+          "node_type": "king",
           "rank": 1,
           "relative_strength": 1.0,
-          "spx_level": 7670.0
+          "spx_level": 7660.0
         },
         {
-          "absolute_gex_usd": 2593867.094,
+          "absolute_gex_usd": 4650087.532199999,
           "location": "above",
-          "net_gex_usd": -2593867.094,
-          "node_type": "king",
-          "rank": 2,
-          "relative_strength": 1.0,
-          "spx_level": 7710.0
-        },
-        {
-          "absolute_gex_usd": 1953318.7648000005,
-          "location": "above",
-          "net_gex_usd": -1953318.7648000005,
+          "net_gex_usd": -4650087.532199999,
           "node_type": "gatekeeper",
-          "rank": 3,
-          "relative_strength": 0.554,
-          "spx_level": 7690.0
+          "rank": 2,
+          "relative_strength": 0.9207,
+          "spx_level": 7665.0
         },
         {
-          "absolute_gex_usd": 1745747.8948000001,
+          "absolute_gex_usd": 2160338.3405999993,
           "location": "below",
-          "net_gex_usd": -1745747.8948000001,
+          "net_gex_usd": -2160338.3405999993,
           "node_type": null,
-          "rank": 5,
-          "relative_strength": 0.4043,
-          "spx_level": 7625.0
+          "rank": 3,
+          "relative_strength": 0.346,
+          "spx_level": 7650.0
         }
       ],
       "positive": [
         {
-          "absolute_gex_usd": 1817013.8935,
+          "absolute_gex_usd": 1701076.1042,
           "location": "above",
-          "net_gex_usd": 1817013.8935,
+          "net_gex_usd": 1701076.1042,
           "node_type": null,
           "rank": 4,
-          "relative_strength": 0.446,
-          "spx_level": 7720.0
+          "relative_strength": 0.0451,
+          "spx_level": 7680.0
+        },
+        {
+          "absolute_gex_usd": 1188251.1278000001,
+          "location": "above",
+          "net_gex_usd": 1188251.1278000001,
+          "node_type": null,
+          "rank": 5,
+          "relative_strength": 0.0341,
+          "spx_level": 7655.0
         }
       ],
       "unclassified": []
     },
-    "king": 7710.0,
-    "put_wall": 7670.0,
-    "spot_usd": 7687.81
+    "king": 7660.0,
+    "put_wall": 7665.0,
+    "spot_usd": 7651.82
   },
   "schema_version": 2
 }
