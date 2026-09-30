@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 1.501169,
+    "age_seconds": 4.495972,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-09-30T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-09-30T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 7.110169,
+    "bar_age_seconds": 29.368972,
     "bars_15m": [
       {
         "close": 7741.0,
@@ -1075,7 +1075,7 @@
     "session_high": 7771.25,
     "session_low": 7719.5,
     "session_start": "2026-09-29T22:00:00+00:00",
-    "source_timestamp": "2026-09-30T13:20:05.609000+00:00",
+    "source_timestamp": "2026-09-30T13:20:24.873000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1083,7 +1083,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 1.501169,
+    "age_seconds": 3.570972,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-09-30T12:30:00+00:00",
@@ -1104,7 +1104,7 @@
         "requested_at": "2026-09-30T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 7.110169,
+    "bar_age_seconds": 29.368972,
     "bars_15m": [
       {
         "close": 30617.0,
@@ -2122,9 +2122,9 @@
       "local_symbol": "NQZ6",
       "symbol": "NQ"
     },
-    "current_price": 30709.75,
+    "current_price": 30710.0,
     "feed_status": "REALTIME",
-    "last_price": 30709.75,
+    "last_price": 30710.0,
     "latest_completed_1m_end": "2026-09-30T13:20:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 0,
@@ -2158,7 +2158,7 @@
     "session_high": 30779.5,
     "session_low": 30512.25,
     "session_start": "2026-09-29T22:00:00+00:00",
-    "source_timestamp": "2026-09-30T13:20:05.609000+00:00",
+    "source_timestamp": "2026-09-30T13:20:25.798000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2172,7 +2172,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-09-30T13:20:07.110169+00:00",
+  "generated_at": "2026-09-30T13:20:29.368972+00:00",
   "gex": {
     "available": false,
     "reason": "PROVIDER_QUOTA_EXHAUSTED",
@@ -2223,7 +2223,7 @@
       }
     }
   },
-  "publication_timestamp": "2026-09-30T13:20:07.110169+00:00",
+  "publication_timestamp": "2026-09-30T13:20:29.368972+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
