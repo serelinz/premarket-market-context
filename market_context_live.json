@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 1.706317,
+    "age_seconds": 1.176078,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-09-30T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-09-30T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 51.692317,
+    "bar_age_seconds": 14.100078,
     "bars_15m": [
       {
         "close": 7741.0,
@@ -185,16 +185,6 @@
       }
     ],
     "bars_1m": [
-      {
-        "close": 7732.25,
-        "complete": true,
-        "end_timestamp": "2026-09-30T12:21:00+00:00",
-        "high": 7732.5,
-        "low": 7731.25,
-        "open": 7731.25,
-        "timestamp": "2026-09-30T12:20:00+00:00",
-        "volume": 353.0
-      },
       {
         "close": 7731.75,
         "complete": true,
@@ -784,6 +774,16 @@
         "open": 7756.25,
         "timestamp": "2026-09-30T13:19:00+00:00",
         "volume": 1207.0
+      },
+      {
+        "close": 7751.0,
+        "complete": true,
+        "end_timestamp": "2026-09-30T13:21:00+00:00",
+        "high": 7753.5,
+        "low": 7750.5,
+        "open": 7752.75,
+        "timestamp": "2026-09-30T13:20:00+00:00",
+        "volume": 1701.0
       }
     ],
     "bars_5m": [
@@ -1039,10 +1039,10 @@
       "local_symbol": "ESZ6",
       "symbol": "ES"
     },
-    "current_price": 7752.75,
+    "current_price": 7751.75,
     "feed_status": "REALTIME",
-    "last_price": 7752.75,
-    "latest_completed_1m_end": "2026-09-30T13:20:00+00:00",
+    "last_price": 7751.75,
+    "latest_completed_1m_end": "2026-09-30T13:21:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 0,
     "opening_15m": {
@@ -1075,7 +1075,7 @@
     "session_high": 7771.25,
     "session_low": 7719.5,
     "session_start": "2026-09-29T22:00:00+00:00",
-    "source_timestamp": "2026-09-30T13:20:49.986000+00:00",
+    "source_timestamp": "2026-09-30T13:21:12.924000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1083,7 +1083,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 1.074317,
+    "age_seconds": 1.558078,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-09-30T12:30:00+00:00",
@@ -1104,7 +1104,7 @@
         "requested_at": "2026-09-30T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 51.692317,
+    "bar_age_seconds": 14.100078,
     "bars_15m": [
       {
         "close": 30617.0,
@@ -1268,16 +1268,6 @@
       }
     ],
     "bars_1m": [
-      {
-        "close": 30552.25,
-        "complete": true,
-        "end_timestamp": "2026-09-30T12:21:00+00:00",
-        "high": 30555.25,
-        "low": 30546.75,
-        "open": 30551.25,
-        "timestamp": "2026-09-30T12:20:00+00:00",
-        "volume": 245.0
-      },
       {
         "close": 30550.5,
         "complete": true,
@@ -1867,6 +1857,16 @@
         "open": 30723.5,
         "timestamp": "2026-09-30T13:19:00+00:00",
         "volume": 349.0
+      },
+      {
+        "close": 30697.25,
+        "complete": true,
+        "end_timestamp": "2026-09-30T13:21:00+00:00",
+        "high": 30711.75,
+        "low": 30694.75,
+        "open": 30707.5,
+        "timestamp": "2026-09-30T13:20:00+00:00",
+        "volume": 818.0
       }
     ],
     "bars_5m": [
@@ -2122,10 +2122,10 @@
       "local_symbol": "NQZ6",
       "symbol": "NQ"
     },
-    "current_price": 30705.0,
+    "current_price": 30703.0,
     "feed_status": "REALTIME",
-    "last_price": 30705.0,
-    "latest_completed_1m_end": "2026-09-30T13:20:00+00:00",
+    "last_price": 30703.0,
+    "latest_completed_1m_end": "2026-09-30T13:21:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 0,
     "opening_15m": {
@@ -2158,7 +2158,7 @@
     "session_high": 30779.5,
     "session_low": 30512.25,
     "session_start": "2026-09-29T22:00:00+00:00",
-    "source_timestamp": "2026-09-30T13:20:50.618000+00:00",
+    "source_timestamp": "2026-09-30T13:21:12.542000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2172,7 +2172,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-09-30T13:20:51.692317+00:00",
+  "generated_at": "2026-09-30T13:21:14.100078+00:00",
   "gex": {
     "available": false,
     "reason": "PROVIDER_QUOTA_EXHAUSTED",
@@ -2223,33 +2223,33 @@
       }
     }
   },
-  "publication_timestamp": "2026-09-30T13:20:51.692317+00:00",
+  "publication_timestamp": "2026-09-30T13:21:14.100078+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-09-30T13:20:00+00:00",
-      "es_pct": -0.109521968818449,
+      "end": "2026-09-30T13:21:00+00:00",
+      "es_pct": -0.11276136473469256,
       "leader": "ES",
-      "nq_pct": -0.13577456544008326,
-      "spread_pct_points": -0.02625259662163426,
-      "start": "2026-09-30T13:05:00+00:00"
+      "nq_pct": -0.1447542836696014,
+      "spread_pct_points": -0.031992918934908854,
+      "start": "2026-09-30T13:06:00+00:00"
     },
     "last_5m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-09-30T13:20:00+00:00",
-      "es_pct": -0.06445375443119294,
+      "end": "2026-09-30T13:21:00+00:00",
+      "es_pct": -0.08700976442912456,
       "leader": "ES",
-      "nq_pct": -0.10084990443658404,
-      "spread_pct_points": -0.03639615000539109,
-      "start": "2026-09-30T13:15:00+00:00"
+      "nq_pct": -0.1268860059376098,
+      "spread_pct_points": -0.03987624150848523,
+      "start": "2026-09-30T13:16:00+00:00"
     },
     "since_1430": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-09-30T13:20:00+00:00",
-      "es_pct": 0.10976239669422405,
+      "end": "2026-09-30T13:21:00+00:00",
+      "es_pct": 0.09039256198346557,
       "leader": "NQ",
-      "nq_pct": 0.2767527675276771,
-      "spread_pct_points": 0.16699037083345303,
+      "nq_pct": 0.2424648140286756,
+      "spread_pct_points": 0.15207225204521002,
       "start": "2026-09-30T12:30:00+00:00"
     }
   },
