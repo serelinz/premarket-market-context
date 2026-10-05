@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 2.221116,
+    "age_seconds": 2.541202,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-05T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-05T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 8.344116,
+    "bar_age_seconds": 28.781202,
     "bars_15m": [
       {
         "close": 7778.5,
@@ -1083,7 +1083,7 @@
     "session_high": 7827.0,
     "session_low": 7760.25,
     "session_start": "2026-10-04T22:00:00+00:00",
-    "source_timestamp": "2026-10-05T17:24:06.123000+00:00",
+    "source_timestamp": "2026-10-05T17:24:26.240000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1091,7 +1091,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 1.642116,
+    "age_seconds": 2.028202,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-05T12:30:00+00:00",
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-05T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 8.344116,
+    "bar_age_seconds": 28.781202,
     "bars_15m": [
       {
         "close": 31056.5,
@@ -2129,9 +2129,9 @@
       "local_symbol": "NQZ6",
       "symbol": "NQ"
     },
-    "current_price": 31277.25,
+    "current_price": 31276.25,
     "feed_status": "REALTIME",
-    "last_price": 31277.25,
+    "last_price": 31276.25,
     "latest_completed_1m_end": "2026-10-05T17:24:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 0,
@@ -2174,7 +2174,7 @@
     "session_high": 31280.0,
     "session_low": 30957.5,
     "session_start": "2026-10-04T22:00:00+00:00",
-    "source_timestamp": "2026-10-05T17:24:06.702000+00:00",
+    "source_timestamp": "2026-10-05T17:24:26.753000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2188,7 +2188,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-05T17:24:08.344116+00:00",
+  "generated_at": "2026-10-05T17:24:28.781202+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2203,7 +2203,7 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-05T17:24:08.344116+00:00",
+  "publication_timestamp": "2026-10-05T17:24:28.781202+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
