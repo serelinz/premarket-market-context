@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 7.696835,
+    "age_seconds": 1.394299,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-05T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-05T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 32.090835,
+    "bar_age_seconds": 51.150299,
     "bars_15m": [
       {
         "close": 7808.0,
@@ -1039,9 +1039,9 @@
       "local_symbol": "ESZ6",
       "symbol": "ES"
     },
-    "current_price": 7829.25,
+    "current_price": 7829.0,
     "feed_status": "REALTIME",
-    "last_price": 7829.25,
+    "last_price": 7829.0,
     "latest_completed_1m_end": "2026-10-05T18:15:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 0,
@@ -1084,7 +1084,7 @@
     "session_high": 7831.5,
     "session_low": 7760.25,
     "session_start": "2026-10-04T22:00:00+00:00",
-    "source_timestamp": "2026-10-05T18:15:24.394000+00:00",
+    "source_timestamp": "2026-10-05T18:15:49.756000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1092,7 +1092,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 7.359835,
+    "age_seconds": 1.231299,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-05T12:30:00+00:00",
@@ -1113,7 +1113,7 @@
         "requested_at": "2026-10-05T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 32.090835,
+    "bar_age_seconds": 51.150299,
     "bars_15m": [
       {
         "close": 31232.75,
@@ -2131,9 +2131,9 @@
       "local_symbol": "NQZ6",
       "symbol": "NQ"
     },
-    "current_price": 31292.25,
+    "current_price": 31291.5,
     "feed_status": "REALTIME",
-    "last_price": 31292.25,
+    "last_price": 31291.5,
     "latest_completed_1m_end": "2026-10-05T18:15:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 0,
@@ -2176,7 +2176,7 @@
     "session_high": 31318.75,
     "session_low": 30957.5,
     "session_start": "2026-10-04T22:00:00+00:00",
-    "source_timestamp": "2026-10-05T18:15:24.731000+00:00",
+    "source_timestamp": "2026-10-05T18:15:49.919000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2190,11 +2190,52 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-05T18:15:32.090835+00:00",
+  "generated_at": "2026-10-05T18:15:51.150299+00:00",
   "gex": {
-    "available": false,
-    "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
-    "status": "STALE"
+    "age_seconds": 351.150299,
+    "available": true,
+    "call_wall": 7770.0,
+    "gamma_flip": 7749.150814412901,
+    "king": 7770.0,
+    "max_age_seconds": 420,
+    "nodes": [
+      {
+        "group": "negative",
+        "net_gex_usd": -83857480.53420001,
+        "rank": 1.0,
+        "spx_level": 7770.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -67838461.24180001,
+        "rank": 2.0,
+        "spx_level": 7775.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -65311258.2341,
+        "rank": 3.0,
+        "spx_level": 7765.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -10924412.546100002,
+        "rank": 4.0,
+        "spx_level": 7760.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -30220763.378100004,
+        "rank": 5.0,
+        "spx_level": 7780.0
+      }
+    ],
+    "put_wall": 7760.0,
+    "reason": null,
+    "session_date_et": "2026-10-05",
+    "snapshot_timestamp": "2026-10-05T18:10:00+00:00",
+    "spx_spot": 7775.77,
+    "status": "FRESH"
   },
   "health": {
     "gex_required": false,
@@ -2205,7 +2246,7 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-05T18:15:32.090835+00:00",
+  "publication_timestamp": "2026-10-05T18:15:51.150299+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
