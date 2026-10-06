@@ -21,7 +21,7 @@
         "requested_at": "2026-10-06T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 42994.050161,
+    "bar_age_seconds": 43014.230393,
     "bars_15m": [
       {
         "close": 7832.5,
@@ -1103,7 +1103,7 @@
         "requested_at": "2026-10-06T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 46354.050161,
+    "bar_age_seconds": 46374.230393,
     "bars_15m": [
       {
         "close": 31363.25,
@@ -2170,7 +2170,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-06T16:22:34.050161+00:00",
+  "generated_at": "2026-10-06T16:22:54.230393+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2221,7 +2221,7 @@
       }
     }
   },
-  "publication_timestamp": "2026-10-06T16:22:34.050161+00:00",
+  "publication_timestamp": "2026-10-06T16:22:54.230393+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
