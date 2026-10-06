@@ -21,7 +21,7 @@
         "requested_at": "2026-10-06T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 50111.575808,
+    "bar_age_seconds": 50131.776803,
     "bars_15m": [
       {
         "close": 7832.5,
@@ -1103,7 +1103,7 @@
         "requested_at": "2026-10-06T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 53471.575808,
+    "bar_age_seconds": 53491.776803,
     "bars_15m": [
       {
         "close": 31363.25,
@@ -2170,9 +2170,9 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-06T18:21:11.575808+00:00",
+  "generated_at": "2026-10-06T18:21:31.776803+00:00",
   "gex": {
-    "age_seconds": 371.575808,
+    "age_seconds": 391.776803,
     "available": true,
     "call_wall": 7830.0,
     "gamma_flip": 7827.173262444032,
@@ -2262,7 +2262,7 @@
       }
     }
   },
-  "publication_timestamp": "2026-10-06T18:21:11.575808+00:00",
+  "publication_timestamp": "2026-10-06T18:21:31.776803+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
