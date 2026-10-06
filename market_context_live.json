@@ -21,7 +21,7 @@
         "requested_at": "2026-10-06T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 55686.468608,
+    "bar_age_seconds": 55706.735685,
     "bars_15m": [
       {
         "close": 7832.5,
@@ -1039,7 +1039,7 @@
       "symbol": "ES"
     },
     "current_price": null,
-    "feed_status": "UNKNOWN",
+    "feed_status": "DISCONNECTED",
     "last_price": null,
     "latest_completed_1m_end": "2026-10-06T04:26:00+00:00",
     "market_data_mode": "UNKNOWN",
@@ -1103,7 +1103,7 @@
         "requested_at": "2026-10-06T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 59046.468608,
+    "bar_age_seconds": 59066.735685,
     "bars_15m": [
       {
         "close": 31363.25,
@@ -2121,7 +2121,7 @@
       "symbol": "NQ"
     },
     "current_price": null,
-    "feed_status": "UNKNOWN",
+    "feed_status": "DISCONNECTED",
     "last_price": null,
     "latest_completed_1m_end": "2026-10-06T03:30:00+00:00",
     "market_data_mode": "UNKNOWN",
@@ -2170,7 +2170,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-06T19:54:06.468608+00:00",
+  "generated_at": "2026-10-06T19:54:26.735685+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2221,7 +2221,7 @@
       }
     }
   },
-  "publication_timestamp": "2026-10-06T19:54:06.468608+00:00",
+  "publication_timestamp": "2026-10-06T19:54:26.735685+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
