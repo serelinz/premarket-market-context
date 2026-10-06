@@ -164,11 +164,52 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-06T13:41:13.693708+00:00",
+  "generated_at": "2026-10-06T13:41:33.364122+00:00",
   "gex": {
-    "available": false,
-    "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
-    "status": "STALE"
+    "age_seconds": 393.364122,
+    "available": true,
+    "call_wall": 7830.0,
+    "gamma_flip": 7811.796646715054,
+    "king": 7800.0,
+    "max_age_seconds": 420,
+    "nodes": [
+      {
+        "group": "positive",
+        "net_gex_usd": 7883970.265699999,
+        "rank": 1.0,
+        "spx_level": 7800.0
+      },
+      {
+        "group": "positive",
+        "net_gex_usd": 4248628.6875,
+        "rank": 4.0,
+        "spx_level": 7815.0
+      },
+      {
+        "group": "positive",
+        "net_gex_usd": 2969703.5499,
+        "rank": 5.0,
+        "spx_level": 7795.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -6099429.0134000005,
+        "rank": 2.0,
+        "spx_level": 7830.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -2382904.4428999997,
+        "rank": 3.0,
+        "spx_level": 7810.0
+      }
+    ],
+    "put_wall": 7810.0,
+    "reason": null,
+    "session_date_et": "2026-10-06",
+    "snapshot_timestamp": "2026-10-06T13:35:00+00:00",
+    "spx_spot": 7813.57,
+    "status": "FRESH"
   },
   "health": {
     "gex_required": false,
@@ -215,7 +256,7 @@
       }
     }
   },
-  "publication_timestamp": "2026-10-06T13:41:13.693708+00:00",
+  "publication_timestamp": "2026-10-06T13:41:33.364122+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
