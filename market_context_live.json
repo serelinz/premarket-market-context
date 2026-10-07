@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 203.710363,
+    "age_seconds": 284.462873,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 155.276363,
+    "bar_age_seconds": 236.028873,
     "bars_15m": [
       {
         "close": 7850.75,
@@ -1039,11 +1039,11 @@
       "symbol": "ES"
     },
     "current_price": null,
-    "feed_status": "STALE",
+    "feed_status": "DISCONNECTED",
     "last_price": 7820.25,
     "latest_completed_1m_end": "2026-10-07T15:02:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 2,
+    "missing_session_minutes": 3,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -1091,7 +1091,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 203.859363,
+    "age_seconds": 284.611873,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 155.276363,
+    "bar_age_seconds": 236.028873,
     "bars_15m": [
       {
         "close": 31273.75,
@@ -2130,11 +2130,11 @@
       "symbol": "NQ"
     },
     "current_price": null,
-    "feed_status": "STALE",
+    "feed_status": "DISCONNECTED",
     "last_price": 31242.25,
     "latest_completed_1m_end": "2026-10-07T15:02:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 2,
+    "missing_session_minutes": 3,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -2188,11 +2188,52 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T15:04:35.276363+00:00",
+  "generated_at": "2026-10-07T15:05:56.028873+00:00",
   "gex": {
-    "available": false,
-    "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
-    "status": "STALE"
+    "age_seconds": 356.028873,
+    "available": true,
+    "call_wall": 7800.0,
+    "gamma_flip": 7767.432119438489,
+    "king": 7760.0,
+    "max_age_seconds": 420,
+    "nodes": [
+      {
+        "group": "positive",
+        "net_gex_usd": 12341849.559999997,
+        "rank": 1.0,
+        "spx_level": 7800.0
+      },
+      {
+        "group": "positive",
+        "net_gex_usd": 9265397.180000002,
+        "rank": 3.0,
+        "spx_level": 7750.0
+      },
+      {
+        "group": "positive",
+        "net_gex_usd": 12744892.162500001,
+        "rank": 4.0,
+        "spx_level": 7770.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -13671447.415,
+        "rank": 2.0,
+        "spx_level": 7760.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -12071083.225000001,
+        "rank": 5.0,
+        "spx_level": 7765.0
+      }
+    ],
+    "put_wall": 7770.0,
+    "reason": null,
+    "session_date_et": "2026-10-07",
+    "snapshot_timestamp": "2026-10-07T15:00:00+00:00",
+    "spx_spot": 7767.25,
+    "status": "FRESH"
   },
   "health": {
     "gex_required": false,
@@ -2203,29 +2244,29 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T15:04:35.276363+00:00",
+  "publication_timestamp": "2026-10-07T15:05:56.028873+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T15:04:00+00:00",
+      "end": "2026-10-07T15:05:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-07T14:49:00+00:00"
+      "start": "2026-10-07T14:50:00+00:00"
     },
     "last_5m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T15:04:00+00:00",
+      "end": "2026-10-07T15:05:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-07T14:59:00+00:00"
+      "start": "2026-10-07T15:00:00+00:00"
     },
     "since_1430": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T15:04:00+00:00",
+      "end": "2026-10-07T15:05:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
