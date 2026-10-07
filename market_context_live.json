@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 109.122915,
+    "age_seconds": 129.933438,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 84.178915,
+    "bar_age_seconds": 104.989438,
     "bars_15m": [
       {
         "close": 7840.0,
@@ -1091,7 +1091,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 108.995915,
+    "age_seconds": 129.806438,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 84.178915,
+    "bar_age_seconds": 104.989438,
     "bars_15m": [
       {
         "close": 31238.25,
@@ -2188,9 +2188,9 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T15:31:24.178915+00:00",
+  "generated_at": "2026-10-07T15:31:44.989438+00:00",
   "gex": {
-    "age_seconds": 384.178915,
+    "age_seconds": 404.989438,
     "available": true,
     "call_wall": 7775.0,
     "gamma_flip": 7779.624587919763,
@@ -2244,7 +2244,7 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T15:31:24.178915+00:00",
+  "publication_timestamp": "2026-10-07T15:31:44.989438+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
