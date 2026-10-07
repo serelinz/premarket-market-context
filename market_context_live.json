@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 18.60233,
+    "age_seconds": 38.407784,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 86.18833,
+    "bar_age_seconds": 105.993784,
     "bars_15m": [
       {
         "close": 7850.75,
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 86.18833,
+    "bar_age_seconds": 105.993784,
     "bars_15m": [
       {
         "close": 31273.75,
@@ -2188,9 +2188,9 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T15:01:26.188330+00:00",
+  "generated_at": "2026-10-07T15:01:45.993784+00:00",
   "gex": {
-    "age_seconds": 386.18833,
+    "age_seconds": 405.993784,
     "available": true,
     "call_wall": 7800.0,
     "gamma_flip": 7773.350346026017,
@@ -2244,7 +2244,7 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T15:01:26.188330+00:00",
+  "publication_timestamp": "2026-10-07T15:01:45.993784+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
