@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 93.276895,
+    "age_seconds": 134.300371,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 131.999895,
+    "bar_age_seconds": 114.162371,
     "bars_15m": [
       {
         "close": 7843.25,
@@ -185,16 +185,6 @@
       }
     ],
     "bars_1m": [
-      {
-        "close": 7824.75,
-        "complete": true,
-        "end_timestamp": "2026-10-07T14:17:00+00:00",
-        "high": 7824.75,
-        "low": 7820.25,
-        "open": 7821.75,
-        "timestamp": "2026-10-07T14:16:00+00:00",
-        "volume": 3289.0
-      },
       {
         "close": 7825.0,
         "complete": true,
@@ -776,14 +766,24 @@
         "volume": 4022.0
       },
       {
-        "close": 7829.25,
+        "close": 7829.5,
         "complete": true,
         "end_timestamp": "2026-10-07T15:16:00+00:00",
-        "high": 7830.0,
+        "high": 7830.25,
         "low": 7828.0,
         "open": 7828.0,
         "timestamp": "2026-10-07T15:15:00+00:00",
-        "volume": 2311.0
+        "volume": 3575.0
+      },
+      {
+        "close": 7829.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T15:17:00+00:00",
+        "high": 7829.75,
+        "low": 7828.75,
+        "open": 7829.5,
+        "timestamp": "2026-10-07T15:16:00+00:00",
+        "volume": 1128.0
       }
     ],
     "bars_5m": [
@@ -1039,11 +1039,11 @@
       "symbol": "ES"
     },
     "current_price": null,
-    "feed_status": "STALE",
-    "last_price": 7830.75,
-    "latest_completed_1m_end": "2026-10-07T15:16:00+00:00",
+    "feed_status": "DISCONNECTED",
+    "last_price": 7831.25,
+    "latest_completed_1m_end": "2026-10-07T15:17:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 2,
+    "missing_session_minutes": 1,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -1083,7 +1083,7 @@
     "session_high": 7884.5,
     "session_low": 7815.75,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T15:16:38.723000+00:00",
+    "source_timestamp": "2026-10-07T15:16:39.862000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1091,7 +1091,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 93.276895,
+    "age_seconds": 134.303371,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 191.999895,
+    "bar_age_seconds": 234.162371,
     "bars_15m": [
       {
         "close": 31249.5,
@@ -2130,8 +2130,8 @@
       "symbol": "NQ"
     },
     "current_price": null,
-    "feed_status": "STALE",
-    "last_price": 31299.5,
+    "feed_status": "DISCONNECTED",
+    "last_price": 31300.25,
     "latest_completed_1m_end": "2026-10-07T15:15:00+00:00",
     "market_data_mode": "REALTIME",
     "missing_session_minutes": 3,
@@ -2174,7 +2174,7 @@
     "session_high": 31521.0,
     "session_low": 31143.0,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T15:16:38.723000+00:00",
+    "source_timestamp": "2026-10-07T15:16:39.859000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2188,7 +2188,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T15:18:11.999895+00:00",
+  "generated_at": "2026-10-07T15:18:54.162371+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2203,7 +2203,7 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T15:18:11.999895+00:00",
+  "publication_timestamp": "2026-10-07T15:18:54.162371+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
