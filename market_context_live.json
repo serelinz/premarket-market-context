@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 817.005027,
+    "age_seconds": 832.600327,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 747.919027,
+    "bar_age_seconds": 819.354327,
     "bars_15m": [
       {
         "close": 7863.75,
@@ -776,14 +776,14 @@
         "volume": 4464.0
       },
       {
-        "close": 7826.25,
+        "close": 7828.0,
         "complete": true,
         "end_timestamp": "2026-10-07T13:54:00+00:00",
-        "high": 7826.5,
+        "high": 7830.0,
         "low": 7825.75,
         "open": 7825.75,
         "timestamp": "2026-10-07T13:53:00+00:00",
-        "volume": 296.0
+        "volume": 4263.0
       }
     ],
     "bars_5m": [
@@ -1040,10 +1040,10 @@
     },
     "current_price": null,
     "feed_status": "STALE",
-    "last_price": 7826.5,
+    "last_price": 7827.5,
     "latest_completed_1m_end": "2026-10-07T13:54:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 12,
+    "missing_session_minutes": 13,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -1083,7 +1083,7 @@
     "session_high": 7884.5,
     "session_low": 7820.75,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T13:52:50.914000+00:00",
+    "source_timestamp": "2026-10-07T13:53:46.754000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1091,7 +1091,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 816.888027,
+    "age_seconds": 832.600327,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 747.919027,
+    "bar_age_seconds": 819.354327,
     "bars_15m": [
       {
         "close": 31359.0,
@@ -1867,14 +1867,14 @@
         "volume": 1263.0
       },
       {
-        "close": 31197.0,
+        "close": 31210.25,
         "complete": true,
         "end_timestamp": "2026-10-07T13:54:00+00:00",
-        "high": 31200.5,
+        "high": 31222.75,
         "low": 31195.5,
         "open": 31195.5,
         "timestamp": "2026-10-07T13:53:00+00:00",
-        "volume": 131.0
+        "volume": 2047.0
       }
     ],
     "bars_5m": [
@@ -2131,10 +2131,10 @@
     },
     "current_price": null,
     "feed_status": "STALE",
-    "last_price": 31192.75,
+    "last_price": 31206.25,
     "latest_completed_1m_end": "2026-10-07T13:54:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 12,
+    "missing_session_minutes": 13,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -2174,7 +2174,7 @@
     "session_high": 31521.0,
     "session_low": 31143.0,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T13:52:51.031000+00:00",
+    "source_timestamp": "2026-10-07T13:53:46.754000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2188,52 +2188,11 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T14:06:27.919027+00:00",
+  "generated_at": "2026-10-07T14:07:39.354327+00:00",
   "gex": {
-    "age_seconds": 387.919027,
-    "available": true,
-    "call_wall": 7765.0,
-    "gamma_flip": 7774.513451315722,
-    "king": 7770.0,
-    "max_age_seconds": 420,
-    "nodes": [
-      {
-        "group": "positive",
-        "net_gex_usd": 9543935.1092,
-        "rank": 1.0,
-        "spx_level": 7770.0
-      },
-      {
-        "group": "positive",
-        "net_gex_usd": 8543708.5706,
-        "rank": 2.0,
-        "spx_level": 7750.0
-      },
-      {
-        "group": "negative",
-        "net_gex_usd": -5987833.2024,
-        "rank": 3.0,
-        "spx_level": 7765.0
-      },
-      {
-        "group": "negative",
-        "net_gex_usd": -1028833.3130000001,
-        "rank": 4.0,
-        "spx_level": 7775.0
-      },
-      {
-        "group": "negative",
-        "net_gex_usd": -4427986.639599999,
-        "rank": 5.0,
-        "spx_level": 7795.0
-      }
-    ],
-    "put_wall": 7770.0,
-    "reason": null,
-    "session_date_et": "2026-10-07",
-    "snapshot_timestamp": "2026-10-07T14:00:00+00:00",
-    "spx_spot": 7773.58,
-    "status": "FRESH"
+    "available": false,
+    "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
+    "status": "STALE"
   },
   "health": {
     "gex_required": false,
@@ -2244,29 +2203,29 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T14:06:27.919027+00:00",
+  "publication_timestamp": "2026-10-07T14:07:39.354327+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T14:06:00+00:00",
+      "end": "2026-10-07T14:07:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-07T13:51:00+00:00"
+      "start": "2026-10-07T13:52:00+00:00"
     },
     "last_5m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T14:06:00+00:00",
+      "end": "2026-10-07T14:07:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-07T14:01:00+00:00"
+      "start": "2026-10-07T14:02:00+00:00"
     },
     "since_1430": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T14:06:00+00:00",
+      "end": "2026-10-07T14:07:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
