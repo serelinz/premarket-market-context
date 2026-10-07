@@ -1,11 +1,11 @@
 {
   "ES": {
-    "age_seconds": 2.149351,
+    "age_seconds": 2.295322,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
         "actual_bar_start": "2026-10-07T12:29:00+00:00",
-        "complete": true,
+        "complete": false,
         "post_high": 7857.5,
         "post_low": 7815.75,
         "price": 7836.25,
@@ -14,14 +14,14 @@
       "stockholm_1430": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
         "actual_bar_start": "2026-10-07T12:29:00+00:00",
-        "complete": true,
+        "complete": false,
         "post_high": 7857.5,
         "post_low": 7815.75,
         "price": 7836.25,
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 39.962351,
+    "bar_age_seconds": 60.243322,
     "bars_15m": [
       {
         "close": 7826.25,
@@ -1039,12 +1039,12 @@
       "local_symbol": "ESZ6",
       "symbol": "ES"
     },
-    "current_price": 7854.75,
+    "current_price": 7855.25,
     "feed_status": "REALTIME",
-    "last_price": 7854.75,
+    "last_price": 7855.25,
     "latest_completed_1m_end": "2026-10-07T17:34:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 0,
+    "missing_session_minutes": 1,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -1078,13 +1078,13 @@
     "rth_high": 7857.5,
     "rth_low": 7815.75,
     "rth_open": 7837.5,
-    "session_complete_so_far": true,
+    "session_complete_so_far": false,
     "session_date_et": "2026-10-07",
     "session_end": "2026-10-07T21:00:00+00:00",
     "session_high": 7884.5,
     "session_low": 7815.75,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T17:34:37.813000+00:00",
+    "source_timestamp": "2026-10-07T17:34:57.948000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1092,12 +1092,12 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 2.978351,
+    "age_seconds": 2.178322,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
         "actual_bar_start": "2026-10-07T12:29:00+00:00",
-        "complete": true,
+        "complete": false,
         "post_high": 31386.5,
         "post_low": 31143.0,
         "price": 31228.0,
@@ -1106,14 +1106,14 @@
       "stockholm_1430": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
         "actual_bar_start": "2026-10-07T12:29:00+00:00",
-        "complete": true,
+        "complete": false,
         "post_high": 31386.5,
         "post_low": 31143.0,
         "price": 31228.0,
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 39.962351,
+    "bar_age_seconds": 60.243322,
     "bars_15m": [
       {
         "close": 31192.5,
@@ -2131,12 +2131,12 @@
       "local_symbol": "NQZ6",
       "symbol": "NQ"
     },
-    "current_price": 31370.75,
+    "current_price": 31372.5,
     "feed_status": "REALTIME",
-    "last_price": 31370.75,
+    "last_price": 31372.5,
     "latest_completed_1m_end": "2026-10-07T17:34:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 0,
+    "missing_session_minutes": 1,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -2170,13 +2170,13 @@
     "rth_high": 31386.5,
     "rth_low": 31143.0,
     "rth_open": 31233.75,
-    "session_complete_so_far": true,
+    "session_complete_so_far": false,
     "session_date_et": "2026-10-07",
     "session_end": "2026-10-07T21:00:00+00:00",
     "session_high": 31521.0,
     "session_low": 31143.0,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T17:34:36.984000+00:00",
+    "source_timestamp": "2026-10-07T17:34:58.065000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2190,7 +2190,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T17:34:39.962351+00:00",
+  "generated_at": "2026-10-07T17:35:00.243322+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2199,39 +2199,39 @@
   "health": {
     "gex_required": false,
     "opening_15m_ready": true,
-    "pa_data_ready": true
+    "pa_data_ready": false
   },
   "premarket_baseline": {
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T17:34:39.962351+00:00",
+  "publication_timestamp": "2026-10-07T17:35:00.243322+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T17:34:00+00:00",
-      "es_pct": 0.006366182836781142,
-      "leader": "ES",
-      "nq_pct": -0.020718287075771613,
-      "spread_pct_points": -0.027084469912552755,
-      "start": "2026-10-07T17:19:00+00:00"
+      "end": "2026-10-07T17:35:00+00:00",
+      "es_pct": null,
+      "leader": "UNKNOWN",
+      "nq_pct": null,
+      "spread_pct_points": null,
+      "start": "2026-10-07T17:20:00+00:00"
     },
     "last_5m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T17:34:00+00:00",
-      "es_pct": 0.0,
-      "leader": "ES",
-      "nq_pct": -0.00876647699198374,
-      "spread_pct_points": -0.00876647699198374,
-      "start": "2026-10-07T17:29:00+00:00"
+      "end": "2026-10-07T17:35:00+00:00",
+      "es_pct": null,
+      "leader": "UNKNOWN",
+      "nq_pct": null,
+      "spread_pct_points": null,
+      "start": "2026-10-07T17:30:00+00:00"
     },
     "since_1430": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T17:34:00+00:00",
-      "es_pct": 0.23289200829479384,
-      "leader": "NQ",
-      "nq_pct": 0.4443127962085347,
-      "spread_pct_points": 0.21142078791374086,
+      "end": "2026-10-07T17:35:00+00:00",
+      "es_pct": null,
+      "leader": "UNKNOWN",
+      "nq_pct": null,
+      "spread_pct_points": null,
       "start": "2026-10-07T12:30:00+00:00"
     }
   },
