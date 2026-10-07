@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 94.998135,
+    "age_seconds": 136.083799,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 97.245135,
+    "bar_age_seconds": 139.204799,
     "bars_15m": [
       {
         "close": 7855.75,
@@ -776,14 +776,14 @@
         "volume": 2154.0
       },
       {
-        "close": 7823.5,
+        "close": 7823.25,
         "complete": true,
         "end_timestamp": "2026-10-07T14:43:00+00:00",
         "high": 7825.5,
         "low": 7823.25,
         "open": 7825.25,
         "timestamp": "2026-10-07T14:42:00+00:00",
-        "volume": 2204.0
+        "volume": 2494.0
       }
     ],
     "bars_5m": [
@@ -1043,7 +1043,7 @@
     "last_price": 7822.75,
     "latest_completed_1m_end": "2026-10-07T14:43:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 1,
+    "missing_session_minutes": 2,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -1083,7 +1083,7 @@
     "session_high": 7884.5,
     "session_low": 7820.0,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T14:43:02.247000+00:00",
+    "source_timestamp": "2026-10-07T14:43:03.121000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -1091,13 +1091,13 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 94.978135,
+    "age_seconds": 136.082799,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
         "actual_bar_start": "2026-10-07T12:29:00+00:00",
         "complete": false,
-        "post_high": 31275.5,
+        "post_high": 31288.25,
         "post_low": 31143.0,
         "price": 31228.0,
         "requested_at": "2026-10-07T12:30:00+00:00"
@@ -1106,24 +1106,14 @@
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
         "actual_bar_start": "2026-10-07T12:29:00+00:00",
         "complete": false,
-        "post_high": 31275.5,
+        "post_high": 31288.25,
         "post_low": 31143.0,
         "price": 31228.0,
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 1537.245135,
+    "bar_age_seconds": 139.204799,
     "bars_15m": [
-      {
-        "close": 31340.75,
-        "complete": true,
-        "end_timestamp": "2026-10-07T10:30:00+00:00",
-        "high": 31354.5,
-        "low": 31329.0,
-        "open": 31347.75,
-        "timestamp": "2026-10-07T10:15:00+00:00",
-        "volume": 1545.0
-      },
       {
         "close": 31306.75,
         "complete": true,
@@ -1273,249 +1263,19 @@
         "open": 31238.75,
         "timestamp": "2026-10-07T14:00:00+00:00",
         "volume": 19652.0
+      },
+      {
+        "close": 31254.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:30:00+00:00",
+        "high": 31288.25,
+        "low": 31200.5,
+        "open": 31219.0,
+        "timestamp": "2026-10-07T14:15:00+00:00",
+        "volume": 19677.0
       }
     ],
     "bars_1m": [
-      {
-        "close": 31257.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:20:00+00:00",
-        "high": 31257.5,
-        "low": 31253.25,
-        "open": 31256.5,
-        "timestamp": "2026-10-07T13:19:00+00:00",
-        "volume": 124.0
-      },
-      {
-        "close": 31252.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:21:00+00:00",
-        "high": 31258.75,
-        "low": 31251.5,
-        "open": 31257.0,
-        "timestamp": "2026-10-07T13:20:00+00:00",
-        "volume": 183.0
-      },
-      {
-        "close": 31246.75,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:22:00+00:00",
-        "high": 31253.0,
-        "low": 31245.25,
-        "open": 31252.75,
-        "timestamp": "2026-10-07T13:21:00+00:00",
-        "volume": 341.0
-      },
-      {
-        "close": 31235.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:23:00+00:00",
-        "high": 31249.5,
-        "low": 31234.0,
-        "open": 31247.0,
-        "timestamp": "2026-10-07T13:22:00+00:00",
-        "volume": 599.0
-      },
-      {
-        "close": 31253.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:24:00+00:00",
-        "high": 31253.0,
-        "low": 31231.0,
-        "open": 31235.5,
-        "timestamp": "2026-10-07T13:23:00+00:00",
-        "volume": 605.0
-      },
-      {
-        "close": 31236.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:25:00+00:00",
-        "high": 31253.5,
-        "low": 31234.75,
-        "open": 31252.75,
-        "timestamp": "2026-10-07T13:24:00+00:00",
-        "volume": 550.0
-      },
-      {
-        "close": 31235.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:26:00+00:00",
-        "high": 31243.5,
-        "low": 31233.0,
-        "open": 31236.5,
-        "timestamp": "2026-10-07T13:25:00+00:00",
-        "volume": 650.0
-      },
-      {
-        "close": 31236.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:27:00+00:00",
-        "high": 31239.75,
-        "low": 31233.25,
-        "open": 31235.75,
-        "timestamp": "2026-10-07T13:26:00+00:00",
-        "volume": 274.0
-      },
-      {
-        "close": 31241.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:28:00+00:00",
-        "high": 31241.5,
-        "low": 31231.5,
-        "open": 31236.75,
-        "timestamp": "2026-10-07T13:27:00+00:00",
-        "volume": 696.0
-      },
-      {
-        "close": 31232.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:29:00+00:00",
-        "high": 31240.0,
-        "low": 31227.25,
-        "open": 31240.0,
-        "timestamp": "2026-10-07T13:28:00+00:00",
-        "volume": 822.0
-      },
-      {
-        "close": 31234.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:30:00+00:00",
-        "high": 31245.0,
-        "low": 31228.75,
-        "open": 31231.75,
-        "timestamp": "2026-10-07T13:29:00+00:00",
-        "volume": 1401.0
-      },
-      {
-        "close": 31244.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:31:00+00:00",
-        "high": 31257.75,
-        "low": 31215.25,
-        "open": 31233.75,
-        "timestamp": "2026-10-07T13:30:00+00:00",
-        "volume": 7356.0
-      },
-      {
-        "close": 31261.75,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:32:00+00:00",
-        "high": 31272.0,
-        "low": 31242.5,
-        "open": 31243.75,
-        "timestamp": "2026-10-07T13:31:00+00:00",
-        "volume": 4849.0
-      },
-      {
-        "close": 31255.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:33:00+00:00",
-        "high": 31263.0,
-        "low": 31230.0,
-        "open": 31262.5,
-        "timestamp": "2026-10-07T13:32:00+00:00",
-        "volume": 3672.0
-      },
-      {
-        "close": 31264.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:34:00+00:00",
-        "high": 31275.5,
-        "low": 31247.25,
-        "open": 31254.75,
-        "timestamp": "2026-10-07T13:33:00+00:00",
-        "volume": 3087.0
-      },
-      {
-        "close": 31255.75,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:35:00+00:00",
-        "high": 31273.25,
-        "low": 31253.5,
-        "open": 31263.25,
-        "timestamp": "2026-10-07T13:34:00+00:00",
-        "volume": 2670.0
-      },
-      {
-        "close": 31239.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:36:00+00:00",
-        "high": 31259.25,
-        "low": 31228.25,
-        "open": 31255.5,
-        "timestamp": "2026-10-07T13:35:00+00:00",
-        "volume": 3273.0
-      },
-      {
-        "close": 31236.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:37:00+00:00",
-        "high": 31247.75,
-        "low": 31227.75,
-        "open": 31240.25,
-        "timestamp": "2026-10-07T13:36:00+00:00",
-        "volume": 2234.0
-      },
-      {
-        "close": 31204.5,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:38:00+00:00",
-        "high": 31237.5,
-        "low": 31202.25,
-        "open": 31235.75,
-        "timestamp": "2026-10-07T13:37:00+00:00",
-        "volume": 3183.0
-      },
-      {
-        "close": 31166.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:39:00+00:00",
-        "high": 31213.75,
-        "low": 31163.0,
-        "open": 31204.75,
-        "timestamp": "2026-10-07T13:38:00+00:00",
-        "volume": 4612.0
-      },
-      {
-        "close": 31180.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:40:00+00:00",
-        "high": 31182.25,
-        "low": 31150.0,
-        "open": 31165.75,
-        "timestamp": "2026-10-07T13:39:00+00:00",
-        "volume": 4229.0
-      },
-      {
-        "close": 31181.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:41:00+00:00",
-        "high": 31189.0,
-        "low": 31164.5,
-        "open": 31180.25,
-        "timestamp": "2026-10-07T13:40:00+00:00",
-        "volume": 3433.0
-      },
-      {
-        "close": 31171.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:42:00+00:00",
-        "high": 31192.0,
-        "low": 31165.75,
-        "open": 31181.25,
-        "timestamp": "2026-10-07T13:41:00+00:00",
-        "volume": 2317.0
-      },
-      {
-        "close": 31190.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T13:43:00+00:00",
-        "high": 31193.75,
-        "low": 31167.25,
-        "open": 31171.0,
-        "timestamp": "2026-10-07T13:42:00+00:00",
-        "volume": 2575.0
-      },
       {
         "close": 31177.75,
         "complete": true,
@@ -1867,67 +1627,257 @@
         "volume": 1480.0
       },
       {
-        "close": 31228.75,
+        "close": 31229.25,
         "complete": true,
         "end_timestamp": "2026-10-07T14:19:00+00:00",
-        "high": 31228.75,
+        "high": 31232.75,
         "low": 31219.0,
         "open": 31226.25,
         "timestamp": "2026-10-07T14:18:00+00:00",
-        "volume": 529.0
+        "volume": 1032.0
+      },
+      {
+        "close": 31242.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:20:00+00:00",
+        "high": 31245.5,
+        "low": 31227.75,
+        "open": 31228.75,
+        "timestamp": "2026-10-07T14:19:00+00:00",
+        "volume": 1271.0
+      },
+      {
+        "close": 31252.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:21:00+00:00",
+        "high": 31255.25,
+        "low": 31237.25,
+        "open": 31243.25,
+        "timestamp": "2026-10-07T14:20:00+00:00",
+        "volume": 1853.0
+      },
+      {
+        "close": 31264.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:22:00+00:00",
+        "high": 31266.25,
+        "low": 31252.0,
+        "open": 31252.5,
+        "timestamp": "2026-10-07T14:21:00+00:00",
+        "volume": 1710.0
+      },
+      {
+        "close": 31265.0,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:23:00+00:00",
+        "high": 31268.0,
+        "low": 31261.0,
+        "open": 31265.0,
+        "timestamp": "2026-10-07T14:22:00+00:00",
+        "volume": 1007.0
+      },
+      {
+        "close": 31263.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:24:00+00:00",
+        "high": 31268.0,
+        "low": 31256.25,
+        "open": 31264.0,
+        "timestamp": "2026-10-07T14:23:00+00:00",
+        "volume": 1009.0
+      },
+      {
+        "close": 31270.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:25:00+00:00",
+        "high": 31273.0,
+        "low": 31261.75,
+        "open": 31263.25,
+        "timestamp": "2026-10-07T14:24:00+00:00",
+        "volume": 1058.0
+      },
+      {
+        "close": 31269.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:26:00+00:00",
+        "high": 31288.25,
+        "low": 31267.25,
+        "open": 31270.25,
+        "timestamp": "2026-10-07T14:25:00+00:00",
+        "volume": 2398.0
+      },
+      {
+        "close": 31264.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:27:00+00:00",
+        "high": 31270.0,
+        "low": 31258.25,
+        "open": 31270.0,
+        "timestamp": "2026-10-07T14:26:00+00:00",
+        "volume": 1207.0
+      },
+      {
+        "close": 31248.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:28:00+00:00",
+        "high": 31264.25,
+        "low": 31247.0,
+        "open": 31264.25,
+        "timestamp": "2026-10-07T14:27:00+00:00",
+        "volume": 1127.0
+      },
+      {
+        "close": 31249.25,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:29:00+00:00",
+        "high": 31251.75,
+        "low": 31238.5,
+        "open": 31249.25,
+        "timestamp": "2026-10-07T14:28:00+00:00",
+        "volume": 1323.0
+      },
+      {
+        "close": 31254.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:30:00+00:00",
+        "high": 31257.0,
+        "low": 31244.5,
+        "open": 31249.25,
+        "timestamp": "2026-10-07T14:29:00+00:00",
+        "volume": 987.0
+      },
+      {
+        "close": 31235.25,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:31:00+00:00",
+        "high": 31256.5,
+        "low": 31234.25,
+        "open": 31254.75,
+        "timestamp": "2026-10-07T14:30:00+00:00",
+        "volume": 1781.0
+      },
+      {
+        "close": 31262.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:32:00+00:00",
+        "high": 31263.5,
+        "low": 31233.75,
+        "open": 31235.0,
+        "timestamp": "2026-10-07T14:31:00+00:00",
+        "volume": 1519.0
+      },
+      {
+        "close": 31258.0,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:33:00+00:00",
+        "high": 31266.75,
+        "low": 31253.75,
+        "open": 31263.0,
+        "timestamp": "2026-10-07T14:32:00+00:00",
+        "volume": 1174.0
+      },
+      {
+        "close": 31243.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:34:00+00:00",
+        "high": 31264.5,
+        "low": 31242.75,
+        "open": 31258.0,
+        "timestamp": "2026-10-07T14:33:00+00:00",
+        "volume": 1023.0
+      },
+      {
+        "close": 31239.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:35:00+00:00",
+        "high": 31246.0,
+        "low": 31233.0,
+        "open": 31243.75,
+        "timestamp": "2026-10-07T14:34:00+00:00",
+        "volume": 1015.0
+      },
+      {
+        "close": 31249.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:36:00+00:00",
+        "high": 31252.25,
+        "low": 31234.25,
+        "open": 31240.25,
+        "timestamp": "2026-10-07T14:35:00+00:00",
+        "volume": 878.0
+      },
+      {
+        "close": 31255.0,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:37:00+00:00",
+        "high": 31267.0,
+        "low": 31249.25,
+        "open": 31249.5,
+        "timestamp": "2026-10-07T14:36:00+00:00",
+        "volume": 1328.0
+      },
+      {
+        "close": 31255.0,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:38:00+00:00",
+        "high": 31258.25,
+        "low": 31248.75,
+        "open": 31255.75,
+        "timestamp": "2026-10-07T14:37:00+00:00",
+        "volume": 502.0
+      },
+      {
+        "close": 31253.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:39:00+00:00",
+        "high": 31257.25,
+        "low": 31244.25,
+        "open": 31255.5,
+        "timestamp": "2026-10-07T14:38:00+00:00",
+        "volume": 614.0
+      },
+      {
+        "close": 31265.25,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:40:00+00:00",
+        "high": 31265.25,
+        "low": 31249.75,
+        "open": 31254.25,
+        "timestamp": "2026-10-07T14:39:00+00:00",
+        "volume": 846.0
+      },
+      {
+        "close": 31269.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:41:00+00:00",
+        "high": 31276.0,
+        "low": 31263.25,
+        "open": 31265.5,
+        "timestamp": "2026-10-07T14:40:00+00:00",
+        "volume": 1285.0
+      },
+      {
+        "close": 31277.0,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:42:00+00:00",
+        "high": 31280.75,
+        "low": 31268.25,
+        "open": 31269.5,
+        "timestamp": "2026-10-07T14:41:00+00:00",
+        "volume": 1358.0
+      },
+      {
+        "close": 31270.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:43:00+00:00",
+        "high": 31277.75,
+        "low": 31268.5,
+        "open": 31276.5,
+        "timestamp": "2026-10-07T14:42:00+00:00",
+        "volume": 995.0
       }
     ],
     "bars_5m": [
-      {
-        "close": 31243.25,
-        "complete": true,
-        "end_timestamp": "2026-10-07T12:20:00+00:00",
-        "high": 31280.75,
-        "low": 31242.25,
-        "open": 31267.5,
-        "timestamp": "2026-10-07T12:15:00+00:00",
-        "volume": 1443.0
-      },
-      {
-        "close": 31247.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T12:25:00+00:00",
-        "high": 31270.25,
-        "low": 31237.0,
-        "open": 31242.25,
-        "timestamp": "2026-10-07T12:20:00+00:00",
-        "volume": 1673.0
-      },
-      {
-        "close": 31228.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T12:30:00+00:00",
-        "high": 31250.25,
-        "low": 31206.25,
-        "open": 31246.75,
-        "timestamp": "2026-10-07T12:25:00+00:00",
-        "volume": 2210.0
-      },
-      {
-        "close": 31243.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T12:35:00+00:00",
-        "high": 31246.0,
-        "low": 31220.5,
-        "open": 31227.5,
-        "timestamp": "2026-10-07T12:30:00+00:00",
-        "volume": 1742.0
-      },
-      {
-        "close": 31264.0,
-        "complete": true,
-        "end_timestamp": "2026-10-07T12:40:00+00:00",
-        "high": 31269.25,
-        "low": 31240.75,
-        "open": 31243.25,
-        "timestamp": "2026-10-07T12:35:00+00:00",
-        "volume": 1374.0
-      },
       {
         "close": 31252.0,
         "complete": true,
@@ -2117,6 +2067,56 @@
         "open": 31222.75,
         "timestamp": "2026-10-07T14:10:00+00:00",
         "volume": 5117.0
+      },
+      {
+        "close": 31242.5,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:20:00+00:00",
+        "high": 31245.5,
+        "low": 31200.5,
+        "open": 31219.0,
+        "timestamp": "2026-10-07T14:15:00+00:00",
+        "volume": 5998.0
+      },
+      {
+        "close": 31270.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:25:00+00:00",
+        "high": 31273.0,
+        "low": 31237.25,
+        "open": 31243.25,
+        "timestamp": "2026-10-07T14:20:00+00:00",
+        "volume": 6637.0
+      },
+      {
+        "close": 31254.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:30:00+00:00",
+        "high": 31288.25,
+        "low": 31238.5,
+        "open": 31270.25,
+        "timestamp": "2026-10-07T14:25:00+00:00",
+        "volume": 7042.0
+      },
+      {
+        "close": 31239.75,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:35:00+00:00",
+        "high": 31266.75,
+        "low": 31233.0,
+        "open": 31254.75,
+        "timestamp": "2026-10-07T14:30:00+00:00",
+        "volume": 6512.0
+      },
+      {
+        "close": 31265.25,
+        "complete": true,
+        "end_timestamp": "2026-10-07T14:40:00+00:00",
+        "high": 31267.0,
+        "low": 31234.25,
+        "open": 31240.25,
+        "timestamp": "2026-10-07T14:35:00+00:00",
+        "volume": 4168.0
       }
     ],
     "blueprint": {
@@ -2131,10 +2131,10 @@
     },
     "current_price": null,
     "feed_status": "STALE",
-    "last_price": 31268.0,
-    "latest_completed_1m_end": "2026-10-07T14:19:00+00:00",
+    "last_price": 31269.75,
+    "latest_completed_1m_end": "2026-10-07T14:43:00+00:00",
     "market_data_mode": "REALTIME",
-    "missing_session_minutes": 25,
+    "missing_session_minutes": 2,
     "opening_15m": {
       "available": true,
       "bar": {
@@ -2165,7 +2165,7 @@
       "available": false,
       "reason": "NO_VALIDATED_PRIOR_WEEK_AGGREGATE"
     },
-    "rth_high": 31275.5,
+    "rth_high": 31288.25,
     "rth_low": 31143.0,
     "rth_open": 31233.75,
     "session_complete_so_far": false,
@@ -2174,7 +2174,7 @@
     "session_high": 31521.0,
     "session_low": 31143.0,
     "session_start": "2026-10-06T22:00:00+00:00",
-    "source_timestamp": "2026-10-07T14:43:02.267000+00:00",
+    "source_timestamp": "2026-10-07T14:43:03.122000+00:00",
     "volume_profile": {
       "available": false,
       "reason": "NO_VALIDATED_CANONICAL_VP_SOURCE"
@@ -2188,7 +2188,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T14:44:37.245135+00:00",
+  "generated_at": "2026-10-07T14:45:19.204799+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2203,29 +2203,29 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T14:44:37.245135+00:00",
+  "publication_timestamp": "2026-10-07T14:45:19.204799+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T14:44:00+00:00",
+      "end": "2026-10-07T14:45:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-07T14:29:00+00:00"
+      "start": "2026-10-07T14:30:00+00:00"
     },
     "last_5m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T14:44:00+00:00",
+      "end": "2026-10-07T14:45:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-07T14:39:00+00:00"
+      "start": "2026-10-07T14:40:00+00:00"
     },
     "since_1430": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-07T14:44:00+00:00",
+      "end": "2026-10-07T14:45:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
