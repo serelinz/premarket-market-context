@@ -1,6 +1,6 @@
 {
   "ES": {
-    "age_seconds": 67.291044,
+    "age_seconds": 94.998135,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -21,7 +21,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 69.538044,
+    "bar_age_seconds": 97.245135,
     "bars_15m": [
       {
         "close": 7855.75,
@@ -1091,7 +1091,7 @@
     "vwap": null
   },
   "NQ": {
-    "age_seconds": 67.271044,
+    "age_seconds": 94.978135,
     "anchors": {
       "new_york_0830": {
         "actual_bar_end": "2026-10-07T12:30:00+00:00",
@@ -1112,7 +1112,7 @@
         "requested_at": "2026-10-07T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 1509.538044,
+    "bar_age_seconds": 1537.245135,
     "bars_15m": [
       {
         "close": 31340.75,
@@ -2188,7 +2188,7 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-07T14:44:09.538044+00:00",
+  "generated_at": "2026-10-07T14:44:37.245135+00:00",
   "gex": {
     "available": false,
     "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
@@ -2203,7 +2203,7 @@
     "available": false,
     "reason": "NO_RETAINED_1505_BASELINE_FOR_TODAY"
   },
-  "publication_timestamp": "2026-10-07T14:44:09.538044+00:00",
+  "publication_timestamp": "2026-10-07T14:44:37.245135+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
