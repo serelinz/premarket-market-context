@@ -21,7 +21,7 @@
         "requested_at": "2026-10-08T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 54639.117351,
+    "bar_age_seconds": 54659.298516,
     "bars_15m": [
       {
         "close": 7847.75,
@@ -1103,7 +1103,7 @@
         "requested_at": "2026-10-08T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 54639.117351,
+    "bar_age_seconds": 54659.298516,
     "bars_15m": [
       {
         "close": 31392.0,
@@ -2170,11 +2170,52 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-08T19:25:39.117351+00:00",
+  "generated_at": "2026-10-08T19:25:59.298516+00:00",
   "gex": {
-    "available": false,
-    "reason": "NO_FRESH_CURRENT_SESSION_SNAPSHOT",
-    "status": "STALE"
+    "age_seconds": 359.298516,
+    "available": true,
+    "call_wall": 7775.0,
+    "gamma_flip": 7751.472703223005,
+    "king": 7765.0,
+    "max_age_seconds": 420,
+    "nodes": [
+      {
+        "group": "negative",
+        "net_gex_usd": -76242647.462,
+        "rank": 1.0,
+        "spx_level": 7765.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -43200918.336,
+        "rank": 2.0,
+        "spx_level": 7775.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -47051509.2488,
+        "rank": 3.0,
+        "spx_level": 7760.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -10331349.901600003,
+        "rank": 4.0,
+        "spx_level": 7770.0
+      },
+      {
+        "group": "negative",
+        "net_gex_usd": -19681842.024400003,
+        "rank": 5.0,
+        "spx_level": 7780.0
+      }
+    ],
+    "put_wall": 7765.0,
+    "reason": null,
+    "session_date_et": "2026-10-08",
+    "snapshot_timestamp": "2026-10-08T19:20:00+00:00",
+    "spx_spot": 7765.48,
+    "status": "FRESH"
   },
   "health": {
     "gex_required": false,
@@ -2221,7 +2262,7 @@
       }
     }
   },
-  "publication_timestamp": "2026-10-08T19:25:39.117351+00:00",
+  "publication_timestamp": "2026-10-08T19:25:59.298516+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
