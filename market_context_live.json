@@ -21,7 +21,7 @@
         "requested_at": "2026-10-08T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 36629.202647,
+    "bar_age_seconds": 36667.20741,
     "bars_15m": [
       {
         "close": 7847.75,
@@ -1043,7 +1043,7 @@
     "last_price": null,
     "latest_completed_1m_end": "2026-10-08T04:15:00+00:00",
     "market_data_mode": "UNKNOWN",
-    "missing_session_minutes": 610,
+    "missing_session_minutes": 611,
     "opening_15m": {
       "available": false,
       "bar": null,
@@ -1103,7 +1103,7 @@
         "requested_at": "2026-10-08T12:30:00+00:00"
       }
     },
-    "bar_age_seconds": 36629.202647,
+    "bar_age_seconds": 36667.20741,
     "bars_15m": [
       {
         "close": 31392.0,
@@ -2125,7 +2125,7 @@
     "last_price": null,
     "latest_completed_1m_end": "2026-10-08T04:15:00+00:00",
     "market_data_mode": "UNKNOWN",
-    "missing_session_minutes": 610,
+    "missing_session_minutes": 611,
     "opening_15m": {
       "available": false,
       "bar": null,
@@ -2170,9 +2170,9 @@
     "quote_max_age_at_capture_seconds": 15,
     "quote_max_age_at_read_seconds": 60
   },
-  "generated_at": "2026-10-08T14:25:29.202647+00:00",
+  "generated_at": "2026-10-08T14:26:07.207410+00:00",
   "gex": {
-    "age_seconds": 329.202647,
+    "age_seconds": 367.20741,
     "available": true,
     "call_wall": 7800.0,
     "gamma_flip": 7791.992668656908,
@@ -2262,29 +2262,29 @@
       }
     }
   },
-  "publication_timestamp": "2026-10-08T14:25:29.202647+00:00",
+  "publication_timestamp": "2026-10-08T14:26:07.207410+00:00",
   "relative_strength": {
     "last_15m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-08T14:25:00+00:00",
+      "end": "2026-10-08T14:26:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-08T14:10:00+00:00"
+      "start": "2026-10-08T14:11:00+00:00"
     },
     "last_5m": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-08T14:25:00+00:00",
+      "end": "2026-10-08T14:26:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
       "spread_pct_points": null,
-      "start": "2026-10-08T14:20:00+00:00"
+      "start": "2026-10-08T14:21:00+00:00"
     },
     "since_1430": {
       "basis": "synchronized_completed_1m_close",
-      "end": "2026-10-08T14:25:00+00:00",
+      "end": "2026-10-08T14:26:00+00:00",
       "es_pct": null,
       "leader": "UNKNOWN",
       "nq_pct": null,
